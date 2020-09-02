@@ -15,7 +15,7 @@
         tools:layout_editor_absoluteY="1dp">
 
         <TextView
-            android:textSize="25dp"
+            android:textSize="25sp"
             android:textStyle="bold"
             android:background="#432A71"
             android:textColor="#fff"
@@ -92,6 +92,17 @@
             android:textColor="#FFFFFF"
             android:textSize="18dp"
             android:textStyle="bold" />
+
+        <TextView
+            android:gravity="end"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:padding="10dp"
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Esqueceu a senha?" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
